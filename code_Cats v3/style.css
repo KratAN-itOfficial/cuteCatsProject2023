@@ -1,7 +1,6 @@
 body {
     margin: 0;
-    /* font-family: sans-serif; */
-	font-family: 'Dancing Script', cursive;
+    font-family: sans-serif;
 }
 
 a {
@@ -259,5 +258,3 @@ a:hover {
 .btn {
 	background-color: #cb11ab;
 }
-
-
