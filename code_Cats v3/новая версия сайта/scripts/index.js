@@ -163,12 +163,15 @@ const updCards = function (data) {
       main.innerHTML += card;
     }
   });
+  
   let cards = document.getElementsByClassName("card");
   for (let i = 0, cnt = cards.length; i < cnt; i++) {
     const width = cards[i].offsetWidth;
     cards[i].style.height = width * 0.6 + "px";
   }
 };
+
+
 
 let catsData = localStorage.getItem("cats");
 catsData = catsData ? JSON.parse(catsData) : [];
